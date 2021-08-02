@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+.bd_col{
+  background-color: black;
+}
+.header{
+  
+   height:60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  font-family: segoe ui;
+ 
+}
+.logo{
+  background-color: black;
+ color: white;
+ width: 25%;
+ height:50px;
+ margin-right: 50%;
+   margin-top: 5px;
+   margin-left: 5px;
+ 
+}
+
+.nav{
+  color: white;
+ 
+  width: 20%;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: .4s
+}
+.nav:hover{
+  color: blue;
+  background-color: white;
+}
+.banner{
+  width: 100%;
+  height: 25vh;
+  background-image: url("bn.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.overlay{
+  height: 200px;
+  width: 300px;
+  background-color: rgba(0,0,0,.5);
+
+}
+.txt{
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  border: 2px solid white;
+}
+.txt_1{
+  color: white;
+}
+.intro{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.int_txt{
+  text-align: center;
+  padding-top: 5px;
+  font-family: segoe ui;
+}
+.intro_dtl{
+  height: 300px;
+  width: 100%;
+  color: white;
+}
+.txt_int{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
